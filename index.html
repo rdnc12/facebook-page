@@ -10,28 +10,42 @@
   <body>
     <header>
       <div class="head-container">
-        <div><img src="images/face-logo.png" alt="facebook" /></div>
+        <div style="float: left;">
+          <a href=""><img src="images/face-logo.png" alt="facebook" /></a>
+        </div>
         <div class="log-in">
-          <div>
-            <label for="email">Email</label>
-            <label for="pass">Password</label><br>
-            <input type="text" size="12" />
-            <input type="text" size="12" />
-            <input type="button" name="Log in" value="Log in" />
-          </div>
+          <table cellscing="0" role="presentation">
+            <tbody>
+              <tr>
+                <td>
+                  <label for="email">Email</label>
+                </td>
+                <td><label for="pass">Password</label><br /></td>
+              </tr>
+              <tr>
+                <td> <input type="email" size="14" /></td>
+                <td><input type="password" size="14" /></td>
+                <td> <input type="button" name="Login" value="Login" /></td>
+              </tr>
+            </tbody>
+          </table>         
         </div>
       </div>
     </header>
     <div class="container">
       <div class="columns">
         <div class="left-column">
-            <h3>Facebook helps you connect and share with the people in your life.</h3>
-            <div><img src="images/communication.png" alt="com" width="400px"></div>
+          <h3>
+            Facebook helps you connect and share with the people in your life.
+          </h3>
+          <div>
+            <img src="images/communication.png" alt="com" width="400px" />
+          </div>
         </div>
         <div class="right-column">
-            <div class="first-right-column"></div>
-            <div class="second-right-column"></div>
-            <div class="third-right-column"></div>
+          <div class="first-right-column"></div>
+          <div class="second-right-column"></div>
+          <div class="third-right-column"></div>
         </div>
       </div>
     </div>
